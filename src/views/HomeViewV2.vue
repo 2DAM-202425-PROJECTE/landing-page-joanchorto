@@ -12,7 +12,7 @@
     <div class="relative z-10 space-y-10 text-center px-4 sm:px-8 lg:px-16">
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in-down"
           aria-label="ERP JCT">
-        Sistema ERP JCT
+        Hesty ERP
       </h1>
       <h2 class="text-3xl font-semibold text-white">
         Revolucionando las Operaciones Empresariales
@@ -85,7 +85,6 @@
     </div>
   </section>
 
-<!--  Seccion de Valor-->
   <!--  Sección de Problemas y Soluciones ERP-->
   <section id="problemas-soluciones" data-aos="fade-up" class="border-b-2 mx-24 p-10">
     <div class="container mx-auto px-4 py-16">
@@ -100,54 +99,46 @@
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Problema 1 -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
-            <svg class="w-12 h-12 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M12 16c4.418 0 8-3.582 8-8S16.418 0 12 0 4 3.582 4 8s3.582 8 8 8z" />
-            </svg>
+          <div class="flex justify-start mb-4">
+            <svg width="50px" height="45px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6.25C12.4142 6.25 12.75 6.58579 12.75 7V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V7C11.25 6.58579 11.5858 6.25 12 6.25Z" fill="#ff0000"></path> <path d="M12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15C11.4477 15 11 15.4477 11 16C11 16.5523 11.4477 17 12 17Z" fill="#ff0000"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75Z" fill="#ff0000"></path> </g></svg>
           </div>
-          <h3 class="text-2xl font-bold text-center mb-4">Gestión Ineficiente del Inventario</h3>
-          <p class="text-gray-600 text-center mb-6">El manejo manual de tu inventario provoca errores, desabastecimientos y pérdidas financieras.</p>
-          <h4 class="text-xl font-bold text-center mb-4 text-blue-500">Nuestra Solución</h4>
-          <p class="text-gray-600 text-center">Nuestro ERP te ofrece control automatizado en tiempo real del inventario, reduciendo errores y optimizando tus niveles de stock.</p>
+          <h3 class="text-2xl font-bold text-start mb-4">Gestión Ineficiente del Inventario</h3>
+          <p class="text-gray-600 text-start mb-6">El manejo manual de tu inventario provoca errores, desabastecimientos y pérdidas financieras.</p>
+          <h4 class="text-xl font-bold text-start mb-4 text-blue-500">Nuestra Solución</h4>
+          <p class="text-gray-600 text-start">Nuestro ERP te ofrece control automatizado en tiempo real del inventario, reduciendo errores y optimizando tus niveles de stock.</p>
         </div>
 
         <!-- Problema 2 -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
-            <svg class="w-12 h-12 text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c2.761 0 5-2.239 5-5S14.761 1 12 1 7 3.239 7 6s2.239 5 5 5zm-5 5h10a5 5 0 015 5v2H2v-2a5 5 0 015-5z" />
-            </svg>
+          <div class="flex justify-start mb-4">
+            <svg width="50px" height="45px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6.25C12.4142 6.25 12.75 6.58579 12.75 7V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V7C11.25 6.58579 11.5858 6.25 12 6.25Z" fill="#ff0000"></path> <path d="M12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15C11.4477 15 11 15.4477 11 16C11 16.5523 11.4477 17 12 17Z" fill="#ff0000"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75Z" fill="#ff0000"></path> </g></svg>
           </div>
-          <h3 class="text-2xl font-bold text-center mb-4">Falta de Control Financiero</h3>
-          <p class="text-gray-600 text-center mb-6">La dispersión de información financiera te impide tener una visión clara y en tiempo real de tu empresa.</p>
-          <h4 class="text-xl font-bold text-center mb-4 text-blue-500">Nuestra Solución</h4>
-          <p class="text-gray-600 text-center">Centralizamos toda tu información financiera en un solo lugar, brindándote reportes detallados y en tiempo real para mejorar la toma de decisiones.</p>
+          <h3 class="text-2xl font-bold text-start mb-4">Falta de Control Financiero</h3>
+          <p class="text-gray-600 text-start mb-6">La dispersión de información financiera te impide tener una visión clara y en tiempo real de tu empresa.</p>
+          <h4 class="text-xl font-bold text-start mb-4 text-blue-500">Nuestra Solución</h4>
+          <p class="text-gray-600 text-start">Centralizamos toda tu información financiera en un solo lugar, brindándote reportes detallados y en tiempo real para mejorar la toma de decisiones.</p>
         </div>
 
         <!-- Problema 3 -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
-            <svg class="w-12 h-12 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16s1-2 4-2 4 2 4 2 4-2 4-2 4 2 4 2v-4s-4 0-4-4V4s-1-1-4-1-4 1-4 1v4s-4 0-4 4v4z" />
-            </svg>
+          <div class="flex justify-start mb-4">
+            <svg fill="#f2930d" height="45px" width="45px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 299.467 299.467" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M293.588,219.182L195.377,32.308c-8.939-17.009-26.429-27.575-45.644-27.575s-36.704,10.566-45.644,27.575L5.879,219.182 c-8.349,15.887-7.77,35.295,1.509,50.647c9.277,15.36,26.189,24.903,44.135,24.903h196.422c17.943,0,34.855-9.542,44.133-24.899 C301.357,254.477,301.936,235.069,293.588,219.182z M266.4,254.319c-3.881,6.424-10.953,10.414-18.456,10.414H51.522 c-7.505,0-14.576-3.99-18.457-10.417c-3.88-6.419-4.121-14.534-0.63-21.177l98.211-186.876 c3.737-7.112,11.052-11.531,19.087-11.531s15.35,4.418,19.087,11.531l98.211,186.876 C270.522,239.782,270.281,247.897,266.4,254.319z"></path> <polygon points="144.037,201.424 155.429,201.424 166.545,87.288 132.92,87.288 "></polygon> <path d="M149.733,212.021c-8.98,0-16.251,7.272-16.251,16.252c0,8.971,7.271,16.251,16.251,16.251 c8.979,0,16.251-7.28,16.251-16.251C165.984,219.294,158.713,212.021,149.733,212.021z"></path> </g> </g></svg>
           </div>
-          <h3 class="text-2xl font-bold text-center mb-4">Procesos Manuales Lentos</h3>
-          <p class="text-gray-600 text-center mb-6">Los procesos manuales y repetitivos consumen tiempo valioso y aumentan el riesgo de errores humanos.</p>
-          <h4 class="text-xl font-bold text-center mb-4 text-blue-500">Nuestra Solución</h4>
-          <p class="text-gray-600 text-center">Automatizamos tareas repetitivas y te ayudamos a ahorrar tiempo, mejorando la eficiencia de tu equipo.</p>
+          <h3 class="text-2xl font-bold text-start mb-4">Procesos Manuales Lentos</h3>
+          <p class="text-gray-600 text-start mb-6">Los procesos manuales y repetitivos consumen tiempo valioso y aumentan el riesgo de errores humanos.</p>
+          <h4 class="text-xl font-bold text-start mb-4 text-blue-500">Nuestra Solución</h4>
+          <p class="text-gray-600 text-start">Automatizamos tareas repetitivas y te ayudamos a ahorrar tiempo, mejorando la eficiencia de tu equipo.</p>
         </div>
 
         <!-- Problema 4 -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
-            <svg class="w-12 h-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v2a2 2 0 012 2v2a2 2 0 01-2 2H8a2 2 0 01-2-2v-2a2 2 0 012-2V8a4 4 0 014-4h2a4 4 0 014 4z" />
-            </svg>
+          <div class="flex justify-start mb-4">
+            <svg fill="#f2930d" height="45px" width="45px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 299.467 299.467" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M293.588,219.182L195.377,32.308c-8.939-17.009-26.429-27.575-45.644-27.575s-36.704,10.566-45.644,27.575L5.879,219.182 c-8.349,15.887-7.77,35.295,1.509,50.647c9.277,15.36,26.189,24.903,44.135,24.903h196.422c17.943,0,34.855-9.542,44.133-24.899 C301.357,254.477,301.936,235.069,293.588,219.182z M266.4,254.319c-3.881,6.424-10.953,10.414-18.456,10.414H51.522 c-7.505,0-14.576-3.99-18.457-10.417c-3.88-6.419-4.121-14.534-0.63-21.177l98.211-186.876 c3.737-7.112,11.052-11.531,19.087-11.531s15.35,4.418,19.087,11.531l98.211,186.876 C270.522,239.782,270.281,247.897,266.4,254.319z"></path> <polygon points="144.037,201.424 155.429,201.424 166.545,87.288 132.92,87.288 "></polygon> <path d="M149.733,212.021c-8.98,0-16.251,7.272-16.251,16.252c0,8.971,7.271,16.251,16.251,16.251 c8.979,0,16.251-7.28,16.251-16.251C165.984,219.294,158.713,212.021,149.733,212.021z"></path> </g> </g></svg>
           </div>
-          <h3 class="text-2xl font-bold text-center mb-4">Falta de Colaboración entre Departamentos</h3>
-          <p class="text-gray-600 text-center mb-6">La desconexión entre diferentes departamentos afecta la comunicación y los flujos de trabajo.</p>
-          <h4 class="text-xl font-bold text-center mb-4 text-blue-500">Nuestra Solución</h4>
-          <p class="text-gray-600 text-center">Nuestro ERP conecta todas las áreas de tu empresa, mejorando la comunicación interna y optimizando los flujos de trabajo.</p>
+          <h3 class="text-2xl font-bold text-start mb-4">Falta de Colaboración entre Departamentos</h3>
+          <p class="text-gray-600 text-start mb-6">La desconexión entre diferentes departamentos afecta la comunicación y los flujos de trabajo.</p>
+          <h4 class="text-xl font-bold text-start mb-4 text-blue-500">Nuestra Solución</h4>
+          <p class="text-gray-600 text-start">Nuestro ERP conecta todas las áreas de tu empresa, mejorando la comunicación interna y optimizando los flujos de trabajo.</p>
         </div>
       </div>
 
@@ -569,7 +560,7 @@
       <div class="grid md:grid-cols-3 gap-8 mb-12">
         <!-- Contacto de Averías -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
+          <div class="flex justify-start mb-4">
             <svg class="w-12 h-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89-2.68a2 2 0 011.91.39L21 12M9 21v-4.8M9 16V8M5 8v8m10-8v8" />
             </svg>
@@ -581,7 +572,7 @@
 
         <!-- Contacto de Ventas -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
+          <div class="flex justify-start mb-4">
             <svg class="w-12 h-12 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h7l5 5 5-5H3m0 4h7m-7 4h13m-4 4h5" />
             </svg>
@@ -593,7 +584,7 @@
 
         <!-- Contacto de Información -->
         <div class="bg-gray-100 p-8 rounded-lg shadow-md transition-transform hover:scale-105">
-          <div class="flex justify-center mb-4">
+          <div class="flex justify-start mb-4">
             <svg class="w-12 h-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8a6 6 0 00-12 0v5a2 2 0 01-2 2h0a2 2 0 002 2v-7m4 3a2 2 0 012 2v4m4-10v5a2 2 0 01-2 2h0a2 2 0 002 2v-4a2 2 0 012-2m0-4V6" />
             </svg>
