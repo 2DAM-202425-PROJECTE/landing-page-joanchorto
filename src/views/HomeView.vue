@@ -295,7 +295,7 @@
     </section>
 
     <!-- CTA Final -->
-    <section data-aos="zoom-in" class="bg-blue-700 text-white mt-10 py-32">
+    <section data-aos="zoom-in" class="bg-blue-700 text-white py-32">
       <div class=" mx-auto text-center">
         <h2 class="text-4xl font-bold mb-6">Empieza a optimizar tu empresa con JesTy</h2>
         <button class="bg-white text-blue-700 font-semibold py-3 px-6 rounded">Empieza Ahora</button>
