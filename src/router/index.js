@@ -3,21 +3,16 @@ import HomeView from "@/views/HomeView.vue";
 import ContactView from "@/views/ContactView.vue";
 import BlogView from "@/views/BlogView.vue";
 import JctagencyView from "@/views/JctagencyView.vue";
-import HomeViewV2 from "@/views/HomeViewV2.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'ModificacionView',
-    //   component: HomeView
-    // },
     {
       path: '/',
-      name: 'HomeViewV2',
-      component: HomeViewV2
+      name: 'ModificacionView',
+      component: HomeView
     },
+
     // {
     //   path: '/jctagency',
     //   name: 'JCT Agency',

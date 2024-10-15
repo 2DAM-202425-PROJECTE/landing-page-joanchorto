@@ -16,7 +16,7 @@ app.mount('#app');
 
 // Inicializar AOS
 AOS.init({
-    duration: 2000, // Duración de la animación
+    duration: 2500, // Duración de la animación
     easing: 'ease-in-out', // Efecto de easing
     once: true, // Animar solo una vez
 });
