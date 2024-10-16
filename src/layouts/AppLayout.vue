@@ -6,8 +6,10 @@
         <div class="flex justify-between items-center h-16">
           <!-- Sección izquierda: Logo -->
           <div class="flex items-center">
+            <a href="/" class="flex items-center">
             <img class="h-12 rounded-2xl w-auto" src="/public/JesTy.jpeg" alt="App Logo" />
             <span class="ml-3 font-bold text-xl">JesTy</span>
+            </a>
           </div>
 
           <!-- Sección central: Enlaces de navegación -->
@@ -22,7 +24,7 @@
               </button>
               <!-- Dropdown -->
               <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-facturacion-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for Facturación -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -32,7 +34,7 @@
                     <p class="ml-2">Facturación</p>
                   </div>
                 </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-contabilidad-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for Contabilidad -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -41,7 +43,7 @@
                     <p class="ml-2">Contabilidad</p>
                   </div>
                 </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-inventory-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for Inventario -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -50,7 +52,7 @@
                     <p class="ml-2">Inventario</p>
                   </div>
                 </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-clientes-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for Clientes -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -60,7 +62,7 @@
                   </div>
                 </a>
                 <!-- CRM Section -->
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-crm-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for CRM -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -70,7 +72,7 @@
                   </div>
                 </a>
                 <!-- TPV Section -->
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/software-pos-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for TPV -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -92,7 +94,7 @@
               </button>
               <!-- Dropdown -->
               <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/jctagency" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
@@ -100,7 +102,7 @@
                     <p class="ml-2">Nuestra Empresa</p>
                   </div>
                 </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/jctagency" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h9M12 4h9m-9 8h9" />
@@ -121,7 +123,7 @@
               </button>
               <!-- Dropdown -->
               <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/online-jesty-price" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15h6M9 19H3M4 10h16M17 14h6M6 14H4M9 5H5" />
@@ -129,7 +131,7 @@
                     <p class="ml-2">Versión Online</p>
                   </div>
                 </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
+                <a href="/physical-jesty-price" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M9 16h6" />
@@ -139,72 +141,79 @@
                 </a>
               </div>
             </div>
-
-            <!-- Dropdown Promociones -->
+<!--            contacto-->
             <div class="relative group">
-              <button class="inline-flex items-center text-sm font-medium focus:outline-none">
-                Promociones
-                <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <!-- Dropdown -->
-              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
-                  <div class="flex h-5">
-                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 2v6a2 2 0 001 1.732V15a2 2 0 002 2h1a2 2 0 002-2V9.732A2 2 0 0022 8V2" />
-                    </svg>
-                    <p class="ml-2">Descuento Especial</p>
-                  </div>
-                </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
-                  <div class="flex h-5">
-                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h12M8 14h8" />
-                    </svg>
-                    <p class="ml-2">Paquetes Familiares</p>
-                  </div>
-                </a>
-              </div>
+              <a href="/contact" class="inline-flex items-center text-sm font-medium focus:outline-none">
+                Contacto
+              </a>
             </div>
 
-            <!-- Dropdown Recursos -->
-            <div class="relative group">
-              <button class="inline-flex items-center text-sm font-medium focus:outline-none">
-                Recursos
-                <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <!-- Dropdown -->
-              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
-                  <div class="flex h-5">
-                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20l9-8-9-8v16z" />
-                    </svg>
-                    <p class="ml-2">Blog</p>
-                  </div>
-                </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
-                  <div class="flex h-5">
-                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L2 12l10 10 10-10L12 2z" />
-                    </svg>
-                    <p class="ml-2">Academia</p>
-                  </div>
-                </a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
-                  <div class="flex h-5">
-                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4M4 20h16V4H4v16z" />
-                    </svg>
-                    <p class="ml-2">WebBinaries</p>
-                  </div>
-                </a>
-              </div>
-            </div>
+
+<!--            &lt;!&ndash; Dropdown Promociones &ndash;&gt;-->
+<!--            <div class="relative group">-->
+<!--              <button class="inline-flex items-center text-sm font-medium focus:outline-none">-->
+<!--                Promociones-->
+<!--                <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />-->
+<!--                </svg>-->
+<!--              </button>-->
+<!--              &lt;!&ndash; Dropdown &ndash;&gt;-->
+<!--              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">-->
+<!--                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">-->
+<!--                  <div class="flex h-5">-->
+<!--                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 2v6a2 2 0 001 1.732V15a2 2 0 002 2h1a2 2 0 002-2V9.732A2 2 0 0022 8V2" />-->
+<!--                    </svg>-->
+<!--                    <p class="ml-2">Descuento Especial</p>-->
+<!--                  </div>-->
+<!--                </a>-->
+<!--                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">-->
+<!--                  <div class="flex h-5">-->
+<!--                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h12M8 14h8" />-->
+<!--                    </svg>-->
+<!--                    <p class="ml-2">Paquetes Familiares</p>-->
+<!--                  </div>-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash; Dropdown Recursos &ndash;&gt;-->
+<!--            <div class="relative group">-->
+<!--              <button class="inline-flex items-center text-sm font-medium focus:outline-none">-->
+<!--                Recursos-->
+<!--                <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />-->
+<!--                </svg>-->
+<!--              </button>-->
+<!--              &lt;!&ndash; Dropdown &ndash;&gt;-->
+<!--              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">-->
+<!--                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">-->
+<!--                  <div class="flex h-5">-->
+<!--                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20l9-8-9-8v16z" />-->
+<!--                    </svg>-->
+<!--                    <p class="ml-2">Blog</p>-->
+<!--                  </div>-->
+<!--                </a>-->
+<!--                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">-->
+<!--                  <div class="flex h-5">-->
+<!--                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L2 12l10 10 10-10L12 2z" />-->
+<!--                    </svg>-->
+<!--                    <p class="ml-2">Academia</p>-->
+<!--                  </div>-->
+<!--                </a>-->
+<!--                <a href="#" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">-->
+<!--                  <div class="flex h-5">-->
+<!--                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4M4 20h16V4H4v16z" />-->
+<!--                    </svg>-->
+<!--                    <p class="ml-2">WebBinaries</p>-->
+<!--                  </div>-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
           </div>
           <!-- Sección derecha: Menú de usuario -->
           <div class="flex space-x-4 items-center">

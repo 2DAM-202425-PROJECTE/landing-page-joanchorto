@@ -41,7 +41,7 @@ export default {
 </script>
 
 <template>
-  <div class=" flex py-40">
+  <div class=" flex bg-gray-100 py-40">
 <div data-aos="flip-left" class="w-1/2">
   <div class="mx-auto max-w-2xl text-center">
     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contacto de ventas</h2>
