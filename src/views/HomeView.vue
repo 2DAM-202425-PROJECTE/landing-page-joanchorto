@@ -1,6 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
+
     <section
         class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen flex items-center justify-center relative">
       <div class="absolute inset-0">
@@ -15,9 +16,8 @@
           <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
           </button>
         </div>
-<!--        <div class="items-center flex-col flex w-full mt-24">-->
-<!--          <img src="/public/hero_image.jpg" alt="JesTy Software" class="object-cover w-1/2 h-72  rounded-2xl">-->
-<!--        </div>-->
+        <NewsletterPopip v-if="showPopup" />
+
       </div>
     </section>
 
@@ -306,8 +306,11 @@
 
 <script setup>
 import {ref} from 'vue';
+import NewsletterPopip from "@/components/NewsletterPopip.vue";
 
 const openIndex = ref(null);
+const showPopup = ref(true);
+
 
 function toggle(index) {
   openIndex.value = openIndex.value === index ? null : index;

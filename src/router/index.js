@@ -5,6 +5,9 @@ import BlogView from "@/views/BlogView.vue";
 import JctagencyView from "@/views/JctagencyView.vue";
 import BillingView from "@/views/funcionalidades/BillingView.vue";
 import ClientsView from "@/views/funcionalidades/ClientsView.vue";
+import LegalNotice from "@/views/legalitats/LegalNotice.vue";
+import CookiesPolice from "@/views/legalitats/CookiesPolice.vue";
+import PrivacityPolice from "@/views/legalitats/PrivacityPolice.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -69,7 +72,10 @@ const router = createRouter({
       path:'/contact',
         name:'ContactView',
         component: ContactView
-    }
+    },
+    { path: '/aviso-legal', component: LegalNotice },
+    { path: '/politica-de-cookies', component: CookiesPolice },
+    { path: '/politica-de-privacidad', component: PrivacityPolice },
 
 
   ]

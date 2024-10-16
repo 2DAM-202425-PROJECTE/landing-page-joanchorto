@@ -2,6 +2,7 @@
 import AppLayout from "@/layouts/AppLayout.vue";
 import 'aos/dist/aos.css';
 import AOS from 'aos'
+import CookieConsent from "@/views/legalitats/CookieConsent.vue";
 
 
 
@@ -11,6 +12,7 @@ import AOS from 'aos'
 <template>
   <AppLayout>
     <RouterView/>
+    <CookieConsent/>
   </AppLayout>
 </template>
 

@@ -245,9 +245,15 @@
             <IconX />
           </a>
         </div>
+        <div class="mt-4 space-x-4">
+          <a href="/politica-de-privacidad" class="text-gray-400 hover:text-white transition-all duration-200">Política de Privacidad</a>
+          <a href="/politica-de-cookies" class="text-gray-400 hover:text-white transition-all duration-200">Política de Cookies</a>
+          <a href="/aviso-legal" class="text-gray-400 hover:text-white transition-all duration-200">Aviso Legal</a>
+        </div>
         <p class="mt-4 text-sm text-gray-400">© 2024 JesTy. Todos los derechos reservados.</p>
       </div>
     </footer>
+
   </div>
 </template>
 
