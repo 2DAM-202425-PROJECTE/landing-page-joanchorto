@@ -182,7 +182,7 @@
         </div>
 
         <div class="md:w-1/2 mt-8 md:mt-0">
-          <img src="/public/pepole3.jpg" alt="Descripción de la imagen"
+          <img src="/public/screenInvoiceList.png" alt="Descripción de la imagen"
                class="w-full h-auto rounded-lg shadow-lg"/>
         </div>
       </div>
@@ -242,9 +242,9 @@
 
 
       </div>
-      <div class="flex  items-center justify-center mt-32">
-        <img src="/public/screenshot4.png" alt="Descripción de la imagen" class="w-3/4 rounded-xl h-auto  shadow-lg"/>
-      </div>
+<!--      <div class="flex  items-center justify-center mt-32">-->
+<!--        <img src="/public/screenShowClient.png" alt="Descripción de la imagen" class="w-3/4 rounded-xl h-auto  shadow-lg"/>-->
+<!--      </div>-->
     </section>
 
     <!-- Preguntas Frecuentes -->
