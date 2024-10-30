@@ -1,4 +1,22 @@
 <template>
+ <head>
+    <title>JesTy - Contabilidad</title>
+    <meta name="description" content="Simplifica la contabilidad de tu negocio con JesTy. Automatiza asientos contables, concilia transacciones y genera reportes financieros.">
+    <meta name="keywords" content="contabilidad, finanzas, asientos contables, reportes financieros, conciliación bancaria">
+    <link rel="canonical" href="https://jesty.com/contabilidad">
+    <meta property="og:title" content="JesTy - Contabilidad">
+    <meta property="og:description" content="Simplifica la contabilidad de tu negocio con JesTy. Automatiza asientos contables, concilia transacciones y genera reportes financieros.">
+    <meta property="og:url" content="https://jesty.com/contabilidad">
+    <meta property="og:image" content="https://jesty.com/contabilidad.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - Contabilidad">
+    <meta name="twitter:description" content="Simplifica la contabilidad de tu negocio con JesTy. Automatiza asientos contables, concilia transacciones y genera reportes financieros.">
+    <meta name="twitter:image" content="https://jesty.com/contabilidad.jpg">
+ </head>
+
   <div class="bg-gray-50">
     <!-- Hero Section -->
     <section class="hero-section bg-blue-500 text-white text-center py-20">

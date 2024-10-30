@@ -2,6 +2,7 @@
 import emailjs from 'emailjs-com';
 
 export default {
+  components: {NewsletterPopip},
   data() {
     return {
       isFormSubmitted: false,
@@ -38,9 +39,39 @@ export default {
     }
   }
 };
+
+
+import {ref} from 'vue';
+import NewsletterPopip from "@/components/NewsletterPopip.vue";
+
+const openIndex = ref(null);
+const showPopup = ref(true);
+
+
+function toggle(index) {
+  openIndex.value = openIndex.value === index ? null : index;
+}
 </script>
 
 <template>
+  <head>
+    <title>JesTy - Contacto</title>
+    <meta name="description" content="Contacta con nosotros para cualquier consulta. Dejanos tus datos para empezar a mejorar el rendiminento de tu empresa">
+    <meta name="keywords" content="contacto, ventas, consultas, información, contacto comercial">
+    <link rel="canonical" href="https://jesty.com/contacto">
+    <meta property="og:title" content="JesTy - Contacto">
+    <meta property="og:description" content="Contacta con nosotros para cualquier consulta. Dejanos tus datos para empezar a mejorar el rendiminento de tu empresa">
+    <meta property="og:url" content="https://jesty.com/contacto">
+    <meta property="og:image" content="https://jesty.com/contacto.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - Contacto">
+    <meta name="twitter:description" content="Contacta con nosotros para cualquier consulta. Dejanos tus datos para empezar a mejorar el rendiminento de tu empresa">
+    <meta name="twitter:image" content="https://jesty.com/contacto.jpg">
+  </head>
+  <NewsletterPopip v-if="showPopup" />
   <div class=" flex bg-gray-100 py-40">
 <div data-aos="flip-left" class="w-1/2">
   <div class="mx-auto max-w-2xl text-center">

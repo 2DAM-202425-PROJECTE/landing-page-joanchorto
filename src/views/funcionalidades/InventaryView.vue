@@ -1,4 +1,22 @@
 <template>
+  <head>
+    <title>JesTy - Inventarios</title>
+    <meta name="description" content="Gestiona eficientemente tu inventario con JesTy. Mantén tu inventario siempre actualizado y disponible, asegurando que nunca te falten productos clave.">
+    <meta name="keywords" content="inventarios, gestión de inventarios, control de stock, cadena de suministro">
+    <link rel="canonical" href="https://jesty.com/inventarios">
+    <meta property="og:title" content="JesTy - Inventarios">
+    <meta property="og:description" content="Gestiona eficientemente tu inventario con JesTy. Mantén tu inventario siempre actualizado y disponible, asegurando que nunca te falten productos clave.">
+    <meta property="og:url" content="https://jesty.com/inventarios">
+    <meta property="og:image" content="https://jesty.com/inventarios.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - Inventarios">
+    <meta name="twitter:description" content="Gestiona eficientemente tu inventario con JesTy. Mantén tu inventario siempre actualizado y disponible, asegurando que nunca te falten productos clave.">
+    <meta name="twitter:image" content="https://jesty.com/inventarios.jpg">
+  </head>
+
   <div class="bg-gray-50">
     <!-- Hero Section -->
     <section class="hero-section bg-blue-500 text-white text-center py-20">

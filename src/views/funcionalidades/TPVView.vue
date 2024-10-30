@@ -1,4 +1,19 @@
 <template>
+  <head>
+    <title>JesTy - TPV</title>
+    <meta name="description" content="Optimiza tu gestión de ventas con JesTy TPV. Controla todas tus ventas desde un solo lugar, de manera rápida y eficiente.">
+    <meta name="keywords" content="TPV, punto de venta, ventas, gestión de ventas, control de stock">
+    <link rel="canonical" href="https://jesty.com/tpv">
+    <meta property="og:title" content="JesTy - TPV">
+    <meta property="og:description" content="Optimiza tu gestión de ventas con JesTy TPV. Controla todas tus ventas desde un solo lugar, de manera rápida y eficiente.">
+    <meta property="og:url" content="https://jesty.com/tpv">
+    <meta property="og:image" content="https://jesty.com/tpv.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - TPV">
+  </head>
   <div class="bg-gray-50">
     <!-- Hero Section -->
     <section class="hero-section bg-blue-500 text-white text-center py-20">

@@ -1,4 +1,9 @@
 <template>
+  <head>
+    <title >JesTy - Precios</title>
+    <meta name="description" content="Precios adaptados a tus necesidades. Empieza con 14 días gratis, continúa con un plan al 50% de descuento durante 3 meses.">
+    <meta name="keywords" content="precios, planes, tarifas, descuentos, ofertas">
+  </head>
   <section class="physical-software-section bg-blue-900 text-white py-16">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl font-bold mb-4">Versión Física del Software</h1>

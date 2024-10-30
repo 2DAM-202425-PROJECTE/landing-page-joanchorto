@@ -1,4 +1,19 @@
 <template>
+  <head>
+    <title >JesTy - Precios</title>
+    <meta name="description" content="Precios adaptados a tus necesidades. Empieza con 14 días gratis, continúa con un plan al 50% de descuento durante 3 meses.">
+    <meta name="keywords" content="precios, planes, descuentos, ofertas, promociones">
+    <link rel="canonical" href="https://jesty.com/precios">
+    <meta property="og:title" content="JesTy - Precios">
+    <meta property="og:description" content="Precios adaptados a tus necesidades. Empieza con 14 días gratis, continúa con un plan al 50% de descuento durante 3 meses.">
+    <meta property="og:url" content="https://jesty.com/precios">
+    <meta property="og:image" content="https://jesty.com/precios.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - Precios">
+  </head>
   <section class="pricing-section bg-blue-900 text-white py-16">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl font-bold mb-4">Precios adaptados a tus necesidades</h1>

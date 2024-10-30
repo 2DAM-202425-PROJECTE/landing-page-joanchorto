@@ -23,7 +23,7 @@
                 </svg>
               </button>
               <!-- Dropdown -->
-              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
+              <div class="absolute  z-10 hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
                 <a href="/software-facturacion-online" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <!-- Icon for Facturación -->
@@ -93,7 +93,7 @@
                 </svg>
               </button>
               <!-- Dropdown -->
-              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
+              <div class="absolute  z-10 hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
                 <a href="/jctagency" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -122,7 +122,7 @@
                 </svg>
               </button>
               <!-- Dropdown -->
-              <div class="absolute hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
+              <div class="absolute  z-10 hidden group-hover:block bg-gray-900 rounded-md text-gray-200 border border-gray-50 shadow-md w-96">
                 <a href="/online-jesty-price" class="block px-4 py-2 hover:bg-gray-200 hover:text-gray-900">
                   <div class="flex h-5">
                     <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -227,7 +227,7 @@
 
 
     <!-- Contenido Principal -->
-    <main class="flex-grow bg-gray-900 pt-20">
+    <main class="flex-grow pt-10">
       <slot></slot>
     </main>
 

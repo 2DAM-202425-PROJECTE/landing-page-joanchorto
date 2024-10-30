@@ -3,6 +3,22 @@
 </script>
 
 <template>
+  <head>
+    <title>Blog</title>
+    <meta name="description" content="Learn how to grow your business with our expert advice.">
+    <meta name="keywords" content="blog, business, marketing, growth, advice">
+    <link rel="canonical" href="https://jesty.com/blog">
+    <meta property="og:title" content="Blog">
+    <meta property="og:description" content="Learn how to grow your business with our expert advice.">
+    <meta property="og:url" content="https://jesty.com/blog">
+    <meta property="og:image" content="https://jesty.com/blog.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+  </head>
   <div class="bg-white py-24 pt-40 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">

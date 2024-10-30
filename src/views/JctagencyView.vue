@@ -1,4 +1,22 @@
 <template>
+
+  <head>
+    <title>JCT Agency</title>
+    <meta name="description" content="En JCT Agency, somos un equipo apasionado por ofrecer las mejores soluciones en gestión empresarial. Nos comprometemos a brindar calidad, innovación y un servicio excepcional, asegurando que cada experiencia sea valiosa y enriquecedora para nuestros clientes.">
+    <meta name="keywords" content="JCT Agency, gestión empresarial, ERP, soluciones empresariales">
+    <link rel="canonical" href="https://jctagency.com">
+    <meta property="og:title" content="JCT Agency">
+    <meta property="og:description" content="En JCT Agency, somos un equipo apasionado por ofrecer las mejores soluciones en gestión empresarial. Nos comprometemos a brindar calidad, innovación y un servicio excepcional, asegurando que cada experiencia sea valiosa y enriquecedora para nuestros clientes.">
+    <meta property="og:url" content="https://jctagency.com">
+    <meta property="og:image" content="https://jctagency.com/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JCT Agency">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JCT Agency">
+    <meta name="twitter:description" content="En JCT Agency, somos un equipo apasionado por ofrecer las mejores soluciones en gestión empresarial. Nos comprometemos a brindar calidad, innovación y un servicio excepcional, asegurando que cada experiencia sea valiosa y enriquecedora para nuestros clientes.">
+    <meta name="twitter:image" content="https://jctagency.com/logo.png">
+  </head>
   <section class="bg-gray-950 text-white pt-24">
     <!-- Sección Acerca de Nosotros -->
     <div data-aos="zoom-in" class="max-w-7xl mx-auto py-16 px-6 sm:px-10 lg:px-16">
@@ -19,7 +37,7 @@
           Nuestra misión es ser líderes en el mercado de ERP, proporcionando productos y servicios que superen las expectativas de nuestros clientes y contribuyan al desarrollo sostenible de sus negocios.
         </p>
         <div class="mt-10 items-center content-center flex-col flex">
-          <img src="/public/POPLogo.jpeg" alt="" class="w-1/4 h-1/4 rounded-lg ">
+          <img src="/public/JesTy.jpeg" alt="" class="w-1/4 h-1/4 rounded-lg ">
         </div>
       </div>
     </div>

@@ -1,23 +1,35 @@
 <template>
+  <head>
+    <title>JesTy Software</title>
+    <meta name="description" content="Gestiona todo tu negocio con JesTy. Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.">
+    <meta name="keywords" content="gestión, empresa, facturación, contabilidad, inventario, clientes">
+    <meta name="author" content="JesTy Software">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
   <div>
     <!-- Hero Section -->
 
     <section
-        class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen flex items-center justify-center relative">
-      <div class="absolute inset-0">
-        <img src="/public/hero_section4.jpg" alt="JesTy Software" class="object-cover w-full h-full opacity-50">
-      </div>
-      <div class="relative z-10 text-center">
-        <h1 class="text-5xl font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
-        <p class="text-xl mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
-        <div class="space-x-4">
-          <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
-          </button>
-          <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
-          </button>
-        </div>
-        <NewsletterPopip v-if="showPopup" />
+        class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center "
+    style="background-image: url('/public/hero_section4.jpg')">
 
+      <div class="space-y-10  ">
+        <div class="flex p-5 flex-col ">
+          <h1 class="text-7xl text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
+          <p class="text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
+          <div class="p-10 items-center text-center space-x-4">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
+            </button>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
+            </button>
+          </div>
+        </div>
+
+        <div class="flex justify-end mb-0 pb-0 flex-col items-center content-center   ">
+          <img class=" h-96 rounded-xl" src="/public/screenComarativa.png" >
+        </div>
       </div>
     </section>
 
@@ -305,16 +317,8 @@
 </template>
 
 <script setup>
-import {ref} from 'vue';
-import NewsletterPopip from "@/components/NewsletterPopip.vue";
 
-const openIndex = ref(null);
-const showPopup = ref(true);
-
-
-function toggle(index) {
-  openIndex.value = openIndex.value === index ? null : index;
-}</script>
+</script>
 
 <style scoped>
 /* Puedes agregar tus estilos personalizados aquí */

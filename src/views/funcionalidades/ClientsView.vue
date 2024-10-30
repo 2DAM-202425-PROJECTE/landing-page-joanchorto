@@ -1,4 +1,23 @@
 <template>
+ <head>
+    <title>JesTy - Clientes</title>
+    <meta name="description" content="Gestiona tus clientes de manera eficiente con JesTy. Mantén organizada toda la información de tus clientes y potencia las relaciones comerciales.">
+    <meta name="keywords" content="clientes, gestión de clientes, historial de clientes, CRM">
+    <link rel="canonical" href="https://jesty.com/clientes">
+    <meta property="og:title" content="JesTy - Clientes">
+    <meta property="og:description" content="Gestiona tus clientes de manera eficiente con JesTy. Mantén organizada toda la información de tus clientes y potencia las relaciones comerciales.">
+    <meta property="og:url" content="https://jesty.com/clientes">
+    <meta property="og:image" content="https://jesty.com/clientes.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - Clientes">
+    <meta name="twitter:description" content="Gestiona tus clientes de manera eficiente con JesTy. Mantén organizada toda la información de tus clientes y potencia las relaciones comerciales.">
+    <meta name="twitter:image" content="https://jesty.com/clientes.jpg">
+
+ </head>
+
   <div class="bg-gray-50">
     <!-- Hero Section -->
     <section class="hero-section bg-blue-500 text-white text-center py-20">

@@ -1,4 +1,21 @@
 <template>
+  <head>
+    <title>JesTy - CRM</title>
+    <meta name="description" content="Gestiona tus relaciones con los clientes de forma eficiente con JesTy CRM. Centraliza la información de tus clientes y potencia tu crecimiento.">
+    <meta name="keywords" content="CRM, gestión de clientes, relaciones comerciales, seguimiento de clientes">
+    <link rel="canonical" href="https://jesty.com/crm">
+    <meta property="og:title" content="JesTy - CRM">
+    <meta property="og:description" content="Gestiona tus relaciones con los clientes de forma eficiente con JesTy CRM. Centraliza la información de tus clientes y potencia tu crecimiento.">
+    <meta property="og:url" content="https://jesty.com/crm">
+    <meta property="og:image" content="https://jesty.com/crm.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="JesTy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JesTy - CRM">
+    <meta name="twitter:description" content="Gestiona tus relaciones con los clientes de forma eficiente con JesTy CRM. Centraliza la información de tus clientes y potencia tu crecimiento.">
+  </head>
+
   <div class="bg-gray-50">
     <!-- Hero Section -->
     <section class="hero-section bg-blue-500 text-white text-center py-20">
