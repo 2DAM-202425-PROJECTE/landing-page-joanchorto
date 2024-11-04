@@ -341,6 +341,6 @@
 </script>
 
 <style scoped>
-#hero{
+.hero{
   background-image: url('/public/hero_section4.jpg');
 }</style>
