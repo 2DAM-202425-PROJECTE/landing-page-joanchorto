@@ -12,8 +12,7 @@
     <!-- Hero Section -->
 
     <section
-        class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center "
-    style="background-image: url('/public/hero_section4.jpg')">
+        class="hero bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center ">
 
       <div class="space-y-10  ">
         <div class="flex p-5 flex-col ">
@@ -342,5 +341,6 @@
 </script>
 
 <style scoped>
-/* Puedes agregar tus estilos personalizados aquí */
-</style>
+#hero{
+  background-image: url('/public/hero_section4.jpg');
+}</style>
