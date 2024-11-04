@@ -55,6 +55,7 @@
           <h2 class="text-3xl font-bold mb-4">Optimiza la gestión de tu negocio</h2>
           <p class="text-lg">JesTy te ayuda a ahorrar tiempo y dinero con sus funcionalidades automatizadas. Lleva el
             control de todas las áreas de tu empresa desde un solo lugar.</p>
+          <a class="text-gray-400 pt-6" href="/contact">Mas información</a>
         </div>
       </div>
     </section>
@@ -64,6 +65,8 @@
         <div class="flex flex-col justify-center">
           <h2 class="text-3xl font-bold mb-4">Mejora la toma de decisiones</h2>
           <p class="text-lg">Con los informes detallados de JesTy, podrás analizar el rendimiento de tu negocio y tomar decisiones estratégicas basadas en datos reales.</p>
+          <a class="text-gray-400 pt-6" href="/contact">Mas información</a>
+
         </div>
         <div class="flex justify-center">
           <img src="/public/funcionalidades1.jpg" alt="Informes detallados" class="rounded-lg shadow-lg">
