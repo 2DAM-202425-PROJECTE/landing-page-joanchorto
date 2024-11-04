@@ -82,6 +82,24 @@
         <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Pide tu demo</button>
       </div>
     </section>
+<!--    Seccion de newsletter-->
+    <section data-aos="fade-up" class="bg-gray-100 py-16">
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Suscríbete a nuestro boletín</h2>
+          <p class="mb-8 text-lg text-gray-600">Recibe las últimas noticias y actualizaciones sobre JesTy directamente en tu bandeja de entrada.</p>
+          <form class="flex items-center">
+            <input type="email" placeholder="Tu correo electrónico" class="bg-white border border-gray-300 p-2 rounded-l-lg focus:outline-none">
+            <button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded-r-lg">Suscribirme</button>
+          </form>
+        </div>
+
+        <div class="md:w-1/2 justify-center flex mt-8 md:mt-0">
+          <img src="/public/th.jpeg"  alt="Descripción de la imagen"
+               class=" h-52 rounded-lg shadow-lg"/>
+        </div>
+      </div>
+    </section>
 
     <!-- Funcionalidades -->
     <section data-aos="fade-up" class="py-16 bg-gray-50">
