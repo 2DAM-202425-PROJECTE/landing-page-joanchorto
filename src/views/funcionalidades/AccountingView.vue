@@ -27,6 +27,9 @@
           Empieza ahora
         </button>
         <p class="mt-2 text-sm">100% seguro, rápido y preciso para tu negocio.</p>
+        <div class="mt-10 justify-center items-center flex ">
+          <img src="/public/screenComarativa.png" alt="Contabilidad JesTy" class="w-1/3 h-auto  rounded-lg shadow-lg">
+        </div>
       </div>
     </section>
 

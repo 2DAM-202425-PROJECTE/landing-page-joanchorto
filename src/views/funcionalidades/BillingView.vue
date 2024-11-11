@@ -26,6 +26,10 @@
           Empieza ahora
         </button>
         <p class="mt-2 text-sm">100% seguro, rápido y fácil de usar</p>
+
+        <div class="mt-10 justify-center items-center flex ">
+          <img src="/public/screenInvoiceList.png" alt="Facturacion JesTy" class="w-1/2 h-auto  rounded-lg shadow-lg">
+        </div>
       </div>
     </section>
 

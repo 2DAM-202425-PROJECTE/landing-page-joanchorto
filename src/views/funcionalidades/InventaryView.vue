@@ -27,6 +27,9 @@
           Comienza a gestionar
         </button>
         <p class="mt-2 text-sm">Organiza tu inventario, controla tus productos y mejora tu cadena de suministro.</p>
+        <div class="mt-10 justify-center items-center flex ">
+          <img src="/public/screenshot2.png" alt="Inventraio JesTy" class="w-1/2 h-auto  rounded-lg shadow-lg">
+        </div>
       </div>
     </section>
 

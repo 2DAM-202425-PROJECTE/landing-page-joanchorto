@@ -24,6 +24,12 @@
           Empieza ahora
         </button>
         <p class="mt-2 text-sm">Fácil, rápido y accesible desde cualquier dispositivo</p>
+
+
+        <div class="mt-10 justify-center items-center flex ">
+          <img src="/public/screenTPV.png" alt="TPV JesTy" class="w-1/2 h-auto  rounded-lg shadow-lg">
+        </div>
+
       </div>
     </section>
 

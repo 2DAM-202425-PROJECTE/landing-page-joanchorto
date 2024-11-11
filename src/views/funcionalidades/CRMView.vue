@@ -26,6 +26,8 @@
           Empieza ahora
         </button>
         <p class="mt-2 text-sm">Todo en un solo lugar, fácil y seguro</p>
+
+
       </div>
     </section>
 

@@ -28,6 +28,10 @@
           Registra un nuevo cliente
         </button>
         <p class="mt-2 text-sm">100% seguro, rápido y fácil de usar</p>
+
+        <div class="mt-10 justify-center items-center flex ">
+          <img src="/public/screenShowClient.png" alt="Contabilidad JesTy" class="w-1/2 h-auto  rounded-lg shadow-lg">
+        </div>
       </div>
     </section>
 
