@@ -14,11 +14,11 @@
     <section
         class="hero bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center ">
 
-      <div class="space-y-10  ">
+      <div class="space-y-10 w-full ">
         <div class="flex p-5 flex-col ">
-          <h1 class="text-7xl text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
-          <p class="text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
-          <div class="p-10 items-center text-center space-x-4">
+          <h1 class="mt-10 text-3xl md:text-5xl  lg:text-7xl  text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
+          <p class="md:text-xl text-lg lg:text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
+          <div class="p-10 items-center md:flex-row lg:flex-row flex flex-col  text-center md:space-x-4 lg:space-x-4 md:space-y-0 lg:space-y-0 space-y-6">
             <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
             </button>
             <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
@@ -45,7 +45,7 @@
     </section>
 
     <!-- Sección Informativa -->
-    <section data-aos="fade-left" class="py-16 bg-white">
+    <section data-aos="fade-left" class="py-16 px-5 bg-white">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex justify-center">
           <img src="/public/funcionalidades2.jpg" alt="Gestión automatizada" class="rounded-lg shadow-lg">
@@ -59,7 +59,7 @@
       </div>
     </section>
 
-    <section data-aos="fade-right" class="py-16 bg-white">
+    <section data-aos="fade-right" class="py-16 px-5 bg-white">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex flex-col justify-center">
           <h2 class="text-3xl font-bold mb-4">Mejora la toma de decisiones</h2>
@@ -82,7 +82,7 @@
       </div>
     </section>
 <!--    Seccion de newsletter-->
-    <section data-aos="fade-up" class="bg-gray-100 py-16">
+    <section data-aos="fade-up" class="bg-gray-100 px-5 py-16">
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Suscríbete a nuestro boletín</h2>
@@ -101,7 +101,7 @@
     </section>
 
     <!-- Funcionalidades -->
-    <section data-aos="fade-up" class="py-16 bg-gray-50">
+    <section data-aos="fade-up" class="py-16 px-5 bg-gray-50">
       <div class="container mx-auto">
         <h2 class="text-center text-3xl font-bold mb-20">Principales funcionalidades</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -130,7 +130,7 @@
     </section>
 
     <!-- Testimonios -->
-    <section data-aos="zoom-in" class="bg-gray-200 py-16">
+    <section data-aos="zoom-in" class="bg-gray-200  py-16">
       <div class="container mx-auto text-center">
         <img src="/public/pepole1.jpg" alt="Cliente" class="rounded-full h-24 mx-auto mb-4">
         <blockquote class="italic text-xl">"JesTy ha transformado la forma en que manejamos nuestro negocio. Las
@@ -141,7 +141,7 @@
     </section>
 
     <!-- Características y Funcionalidades -->
-    <section data-aos="fade-up" class="py-24 bg-gray-50">
+    <section data-aos="fade-up" class="py-24 px-5 bg-gray-50">
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Características y Funcionalidades de JesTy</h2>
@@ -206,7 +206,7 @@
                class="w-full h-auto rounded-lg shadow-lg"/>
         </div>
       </div>
-      <div class="container mt-24 mx-auto flex flex-col md:flex-row w-full  justify-start">
+      <div class="container mt-24 mx-auto flex flex-col md:flex-row w-full  px-5 justify-start">
 
         <div class="flex flex-col justify-start items-start">
           <h2 class="text-4xl font-bold text-gray-800  mb-4">Y eso no es todo...</h2>
@@ -337,7 +337,16 @@
 </template>
 
 <script setup>
+import {ref} from "vue";
 
+const openIndex = ref(-1);
+const toggle = (index) => {
+  if (openIndex.value === index) {
+    openIndex.value = -1;
+  } else {
+    openIndex.value = index;
+  }
+};
 </script>
 
 <style scoped>

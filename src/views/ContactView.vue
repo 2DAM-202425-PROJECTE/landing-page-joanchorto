@@ -71,9 +71,8 @@ function toggle(index) {
     <meta name="twitter:description" content="Contacta con nosotros para cualquier consulta. Dejanos tus datos para empezar a mejorar el rendiminento de tu empresa">
     <meta name="twitter:image" content="https://jesty.com/contacto.jpg">
   </head>
-  <NewsletterPopip v-if="showPopup" />
-  <div class=" flex bg-gray-100 py-40">
-<div data-aos="flip-left" class="w-1/2">
+  <div class=" flex flex-col space-y-10 lg:space-y-0 md:space-y-0  lg:flex-row md:flex-row bg-gray-100 py-40">
+<div data-aos="flip-left" class="md:w-1/2 lg:w-1/2">
   <div class="mx-auto max-w-2xl text-center">
     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contacto de ventas</h2>
     <p class="mt-2 text-lg leading-8 text-gray-600">Dejanos tus datos para empezar a mejorar el rendiminento de tu empresa</p>
@@ -147,7 +146,7 @@ function toggle(index) {
     </div>
   </form>
 </div>
-<div data-aos="flip-right" class="w-1/2">
+<div data-aos="flip-right" class="md:w-1/2 lg:w-1/2">
   <div class="mx-auto max-w-2xl space-y-10 text-center">
     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contacta</h2>
     <p class="mt-2 text-lg leading-8 text-gray-600">Contacta con nosotros para cualquier consulta.</p>
