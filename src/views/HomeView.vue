@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <div>
+  <div class="">
     <!-- Hero Section -->
 
     <section
-        class="hero bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center ">
+        class="hero flex items-center justify-center min-h-screen ">
 
-      <div class="space-y-10 w-full ">
-        <div class="flex p-5 flex-col ">
+      <div class="space-y-10 w-full text-gray-50">
+        <div class="flex lg:p-5 md:p-5 sm:p-1 flex-col ">
           <h1 class="mt-10 text-3xl md:text-5xl  lg:text-7xl  text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
           <p class="md:text-xl text-lg lg:text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
           <div class="p-10 items-center justify-center md:flex-row lg:flex-row flex flex-col  text-center md:space-x-4 lg:space-x-4 md:space-y-0 lg:space-y-0 space-y-6">
@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex justify-end mb-0 pb-0 flex-col items-center content-center   ">
-          <img class=" h-96 rounded-xl" src="/public/screenComarativa.png" >
+          <img class="w-3/4 md:w-1/3 lg:w-1/3 rounded-xl" src="/public/screenComarativa.png" alt=""/>
         </div>
       </div>
     </section>
@@ -35,7 +35,7 @@
     <!-- Sección de Clientes -->
     <section data-aos="fade-up" class="py-16 bg-gray-100">
       <h2 class="text-center text-3xl font-bold mb-8">Clientes que confían en JesTy</h2>
-      <div class="container mx-auto flex pt-5 justify-around items-center">
+      <div class="container flex pt-5 justify-around items-center">
         <img src="/public/company3.jpeg" alt="Cliente 1" class="h-16 rounded-2xl">
         <img src="/public/company1.jpeg" alt="Cliente 2" class="h-16 rounded-2xl">
         <img src="/public/company4.jpeg" alt="Cliente 3" class="h-16 rounded-2xl">
@@ -46,7 +46,7 @@
 
     <!-- Sección Informativa -->
     <section data-aos="fade-left" class="py-16 px-5 bg-white">
-      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex justify-center">
           <img src="/public/funcionalidades2.jpg" alt="Gestión automatizada" class="rounded-lg shadow-lg">
         </div>
@@ -60,7 +60,7 @@
     </section>
 
     <section data-aos="fade-right" class="py-16 px-5 bg-white">
-      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex flex-col justify-center">
           <h2 class="text-3xl font-bold mb-4">Mejora la toma de decisiones</h2>
           <p class="text-lg">Con los informes detallados de JesTy, podrás analizar el rendimiento de tu negocio y tomar decisiones estratégicas basadas en datos reales.</p>
@@ -76,14 +76,14 @@
 
     <!-- CTA -->
     <section data-aos="zoom-in" class="bg-gray-800 text-white py-24">
-      <div class="container mx-auto text-center">
+      <div class="container  text-center">
         <h2 class="text-4xl font-bold mb-6">Únete a miles de empresas que ya confían en JesTy</h2>
         <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Pide tu demo</button>
       </div>
     </section>
 <!--    Seccion de newsletter-->
     <section data-aos="fade-up" class="bg-gray-100 px-5 py-16">
-      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="container  flex flex-col md:flex-row items-center justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Suscríbete a nuestro boletín</h2>
           <p class="mb-8 text-lg text-gray-600">Recibe las últimas noticias y actualizaciones sobre JesTy directamente en tu bandeja de entrada.</p>
@@ -102,7 +102,7 @@
 
     <!-- Funcionalidades -->
     <section data-aos="fade-up" class="py-16 px-5 bg-gray-50">
-      <div class="container mx-auto">
+      <div class="container ">
         <h2 class="text-center text-3xl font-bold mb-20">Principales funcionalidades</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="flex flex-col items-center text-center">
@@ -131,8 +131,8 @@
 
     <!-- Testimonios -->
     <section data-aos="zoom-in" class="bg-gray-200  py-16">
-      <div class="container mx-auto text-center">
-        <img src="/public/pepole1.jpg" alt="Cliente" class="rounded-full h-24 mx-auto mb-4">
+      <div class="container  text-center">
+        <img src="/public/pepole1.jpg" alt="Cliente" class="rounded-full h-24  mb-4">
         <blockquote class="italic text-xl">"JesTy ha transformado la forma en que manejamos nuestro negocio. Las
           automatizaciones nos ahorran muchísimo tiempo."
         </blockquote>
@@ -142,7 +142,7 @@
 
     <!-- Características y Funcionalidades -->
     <section data-aos="fade-up" class="py-24 px-5 bg-gray-50">
-      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="container  flex flex-col md:flex-row items-center justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Características y Funcionalidades de JesTy</h2>
           <p class="mb-8 text-lg text-gray-600">Descubre cómo JesTy puede facilitar tu trabajo y aumentar tu
@@ -206,7 +206,7 @@
                class="w-full h-auto rounded-lg shadow-lg"/>
         </div>
       </div>
-      <div class="container mt-24 mx-auto flex flex-col md:flex-row w-full  px-5 justify-start">
+      <div class="container mt-24  flex flex-col md:flex-row w-full  px-5 justify-start">
 
         <div class="flex flex-col justify-start items-start">
           <h2 class="text-4xl font-bold text-gray-800  mb-4">Y eso no es todo...</h2>
@@ -214,7 +214,7 @@
         </div>
 
         <div class="justify-end items-end flex flex-col w-full">
-          <ul class="list-disc list-inside space-y-4 text-left max-w-3xl mx-auto">
+          <ul class="list-disc list-inside space-y-4 text-left max-w-3xl ">
             <li class="flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24"
                    stroke="currentColor">
@@ -268,8 +268,8 @@
     </section>
 
     <!-- Preguntas Frecuentes -->
-    <section data-aos="fade-up" class="bg-gray-100 py-12">
-      <div class="container mx-auto">
+    <section data-aos="fade-up" class="bg-gray-100 items-center justify-center flex w-full py-12">
+      <div class="container  ">
         <h2 class="text-3xl font-bold text-center mb-6">Preguntas Frecuentes</h2>
         <div class="space-y-4">
           <div class="bg-white shadow-md rounded-lg">
@@ -328,7 +328,7 @@
 
     <!-- CTA Final -->
     <section data-aos="zoom-in" class="bg-blue-700 text-white py-32">
-      <div class=" mx-auto text-center">
+      <div class="  text-center">
         <h2 class="text-4xl font-bold mb-6">Empieza a optimizar tu empresa con JesTy</h2>
         <button class="bg-white text-blue-700 font-semibold py-3 px-6 rounded">Empieza Ahora</button>
       </div>
@@ -352,4 +352,5 @@ const toggle = (index) => {
 <style scoped>
 .hero{
   background-image: url('/public/hero_section4.jpg');
+
 }</style>
