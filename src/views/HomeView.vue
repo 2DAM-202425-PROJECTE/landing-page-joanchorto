@@ -18,7 +18,7 @@
         <div class="flex p-5 flex-col ">
           <h1 class="mt-10 text-3xl md:text-5xl  lg:text-7xl  text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
           <p class="md:text-xl text-lg lg:text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
-          <div class="p-10 items-center md:flex-row lg:flex-row flex flex-col  text-center md:space-x-4 lg:space-x-4 md:space-y-0 lg:space-y-0 space-y-6">
+          <div class="p-10 items-center justify-center md:flex-row lg:flex-row flex flex-col  text-center md:space-x-4 lg:space-x-4 md:space-y-0 lg:space-y-0 space-y-6">
             <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
             </button>
             <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
