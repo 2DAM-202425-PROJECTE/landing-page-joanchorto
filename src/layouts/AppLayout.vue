@@ -252,19 +252,25 @@
       <!-- Menú desplegable en móviles -->
       <div v-if="isMobileMenuOpen" class="md:hidden bg-gray-800 text-white">
         <div class="space-y-1 px-2 pt-2 pb-3">
-          <a href="/software-facturacion-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">Facturación</a>
-          <a href="/software-contabilidad-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">Contabilidad</a>
-          <a href="/software-inventory-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">Inventario</a>
-          <a href="/software-clientes-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">Clientes</a>
-          <a href="/software-crm-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">CRM</a>
-          <a href="/software-pos-online" class="block px-4 py-2 hover:bg-gray-700 rounded-md">TPV</a>
+          <p class="block px-4 py-2 hover:bg-gray-300 bg-blue-400 rounded-md">Funcionalidades</p>
+          <a href="/software-facturacion-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Facturación</a>
+          <a href="/software-contabilidad-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Contabilidad</a>
+          <a href="/software-inventory-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Inventario</a>
+          <a href="/software-clientes-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Clientes</a>
+          <a href="/software-crm-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">CRM</a>
+          <a href="/software-pos-online" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">TPV</a>
+          <a href="/jctagency" class="block px-4 py-2 hover:bg-gray-700 bg-blue-400 rounded-md">Empresa</a>
+          <p class="block px-4 py-2 hover:bg-gray-700 bg-blue-400 rounded-md">Precios</p>
+          <a href="/online-jesty-price" class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Versión Online</a>
+          <a href="/physical-jesty-price"  class="block px-4 py-2 hover:bg-gray-700 border-b border-gray-200">Versión de Servidor</a>
+          <a href="/contact" class="block px-4 py-2 hover:bg-gray-700 bg-blue-400 rounded-md">Contacto</a>
         </div>
       </div>
     </nav>
 
     <!-- Contenido principal -->
-    <main class="flex-grow mt-16">
-      <slot></slot>
+    <main class=" mt-16">
+      <slot/>
     </main>
 
     <!-- Footer -->
@@ -272,23 +278,42 @@
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <span>© 2023 JesTy. Todos los derechos reservados.</span>
         <nav class="hidden md:flex space-x-4">
+          <a href=""><IconInstagram/></a>
+          <a href=""><IconLinkedin/></a>
+          <a href=""><IconX/> </a>
+        </nav>
+        <nav class="hidden md:flex space-x-4">
           <a href="/politica-de-privacidad" class="hover:text-white">Política de Privacidad</a>
-          <a href="/terminos-y-condiciones" class="hover:text-white">Términos y Condiciones</a>
+          <a href="/aviso-legal" class="hover:text-white">Términos y Condiciones</a>
+          <a href="/politica-de-cookies" class=" hover:text-white">Pólitica de Cookies</a>
+
           <a href="/contacto" class="hover:text-white">Contacto</a>
         </nav>
       </div>
       <!-- Footer para móviles -->
-      <div v-if="!isMobileMenuOpen" class="md:hidden text-center pt-4 space-y-2">
+      <div v-if="!isMobileMenuOpen" class="md:hidden items-center justify-center text-center pt-4 space-y-2">
         <a href="/politica-de-privacidad" class="block hover:text-white">Política de Privacidad</a>
-        <a href="/terminos-y-condiciones" class="block hover:text-white">Términos y Condiciones</a>
+        <a href="/aviso-legal" class="block hover:text-white">Términos y Condiciones</a>
+        <a href="/politica-de-cookies" class="block hover:text-white">Pólitica de Cookies</a>
         <a href="/contacto" class="block hover:text-white">Contacto</a>
+        <div class="flex w-full items-center justify-center space-x-5">
+          <a href="" class="block items-center justify-center "><IconInstagram/></a>
+          <a href="" class="block items-center justify-center "><IconLinkedin/></a>
+          <a href="" class="block items-center justify-center "><IconX/> </a>
+        </div>
+
       </div>
     </footer>
   </div>
 </template>
 
 <script>
+import IconInstagram from "@/components/icons/RRSS/IconInstagram.vue";
+import IconLinkedin from "@/components/icons/RRSS/IconLinkedin.vue";
+import IconX from "@/components/icons/RRSS/IconX.vue";
+
 export default {
+  components: {IconX, IconLinkedin, IconInstagram},
   data() {
     return {
       isMobileMenuOpen: false,

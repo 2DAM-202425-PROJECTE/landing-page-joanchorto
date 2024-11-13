@@ -32,10 +32,10 @@
       </div>
     </section>
 
-    <!-- Sección de Clientes -->
-    <section data-aos="fade-up" class="py-16 bg-gray-100">
+<!--     Sección de Clientes -->
+    <section data-aos="fade-up" class="py-16 bg-gray-100 w-full justify-center items-center ">
       <h2 class="text-center text-3xl font-bold mb-8">Clientes que confían en JesTy</h2>
-      <div class="container flex pt-5 justify-around items-center">
+      <div class="w-full flex pt-5 justify-around items-center">
         <img src="/public/company3.jpeg" alt="Cliente 1" class="h-16 rounded-2xl">
         <img src="/public/company1.jpeg" alt="Cliente 2" class="h-16 rounded-2xl">
         <img src="/public/company4.jpeg" alt="Cliente 3" class="h-16 rounded-2xl">
@@ -44,23 +44,23 @@
       </div>
     </section>
 
-    <!-- Sección Informativa -->
-    <section data-aos="fade-left" class="py-16 px-5 bg-white">
-      <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div class="flex justify-center">
-          <img src="/public/funcionalidades2.jpg" alt="Gestión automatizada" class="rounded-lg shadow-lg">
-        </div>
-        <div class="flex flex-col justify-center">
-          <h2 class="text-3xl font-bold mb-4">Optimiza la gestión de tu negocio</h2>
-          <p class="text-lg">JesTy te ayuda a ahorrar tiempo y dinero con sus funcionalidades automatizadas. Lleva el
-            control de todas las áreas de tu empresa desde un solo lugar.</p>
-          <a class="text-gray-400 pt-6" href="/contact">Mas información</a>
-        </div>
-      </div>
-    </section>
+<!--    &lt;!&ndash; Sección Informativa &ndash;&gt;-->
+<!--    <section data-aos="fade-left" class="py-16 px-5 bg-white">-->
+<!--      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">-->
+<!--        <div class="flex justify-center">-->
+<!--          <img src="/public/funcionalidades2.jpg" alt="Gestión automatizada" class="rounded-lg shadow-lg">-->
+<!--        </div>-->
+<!--        <div class="flex flex-col justify-center">-->
+<!--          <h2 class="text-3xl font-bold mb-4">Optimiza la gestión de tu negocio</h2>-->
+<!--          <p class="text-lg">JesTy te ayuda a ahorrar tiempo y dinero con sus funcionalidades automatizadas. Lleva el-->
+<!--            control de todas las áreas de tu empresa desde un solo lugar.</p>-->
+<!--          <a class="text-gray-400 pt-6" href="/contact">Mas información</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
 
     <section data-aos="fade-right" class="py-16 px-5 bg-white">
-      <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex flex-col justify-center">
           <h2 class="text-3xl font-bold mb-4">Mejora la toma de decisiones</h2>
           <p class="text-lg">Con los informes detallados de JesTy, podrás analizar el rendimiento de tu negocio y tomar decisiones estratégicas basadas en datos reales.</p>
@@ -72,18 +72,31 @@
         </div>
       </div>
     </section>
+    <section data-aos="fade-right" class="py-16 px-5 bg-white">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="flex justify-center">
+          <img src="/public/funcionalidades2.jpg" alt="Informes detallados" class="rounded-lg shadow-lg">
+        </div>
+        <div class="flex flex-col justify-center">
+          <h2 class="text-3xl font-bold mb-4">Optimiza la gestión de tu negocio</h2>
+          <p class="text-lg">JesTy te ayuda a ahorrar tiempo y dinero con sus funcionalidades automatizadas. Lleva el control de todas las áreas de tu empresa desde un solo lugar.</p>
+          <a class="text-gray-400 pt-6" href="/contact">Mas información</a>
+
+        </div>
+      </div>
+    </section>
 
 
     <!-- CTA -->
     <section data-aos="zoom-in" class="bg-gray-800 text-white py-24">
-      <div class="container  text-center">
+      <div class="items-center justify-center w-full flex-col flex text-center">
         <h2 class="text-4xl font-bold mb-6">Únete a miles de empresas que ya confían en JesTy</h2>
         <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Pide tu demo</button>
       </div>
     </section>
 <!--    Seccion de newsletter-->
     <section data-aos="fade-up" class="bg-gray-100 px-5 py-16">
-      <div class="container  flex flex-col md:flex-row items-center justify-between">
+      <div class="w-full items-center justify-centerflex flex-col md:flex-row  flex justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Suscríbete a nuestro boletín</h2>
           <p class="mb-8 text-lg text-gray-600">Recibe las últimas noticias y actualizaciones sobre JesTy directamente en tu bandeja de entrada.</p>
@@ -102,7 +115,7 @@
 
     <!-- Funcionalidades -->
     <section data-aos="fade-up" class="py-16 px-5 bg-gray-50">
-      <div class="container ">
+      <div class="">
         <h2 class="text-center text-3xl font-bold mb-20">Principales funcionalidades</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="flex flex-col items-center text-center">
@@ -131,7 +144,7 @@
 
     <!-- Testimonios -->
     <section data-aos="zoom-in" class="bg-gray-200  py-16">
-      <div class="container  text-center">
+      <div class="w-full items-center justify-center flex flex-col text-center">
         <img src="/public/pepole1.jpg" alt="Cliente" class="rounded-full h-24  mb-4">
         <blockquote class="italic text-xl">"JesTy ha transformado la forma en que manejamos nuestro negocio. Las
           automatizaciones nos ahorran muchísimo tiempo."
@@ -142,7 +155,7 @@
 
     <!-- Características y Funcionalidades -->
     <section data-aos="fade-up" class="py-24 px-5 bg-gray-50">
-      <div class="container  flex flex-col md:flex-row items-center justify-between">
+      <div class="w-full flex flex-col md:flex-row items-center justify-between">
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Características y Funcionalidades de JesTy</h2>
           <p class="mb-8 text-lg text-gray-600">Descubre cómo JesTy puede facilitar tu trabajo y aumentar tu
@@ -269,7 +282,7 @@
 
     <!-- Preguntas Frecuentes -->
     <section data-aos="fade-up" class="bg-gray-100 items-center justify-center flex w-full py-12">
-      <div class="container  ">
+      <div class="w-full items-center justify-center">
         <h2 class="text-3xl font-bold text-center mb-6">Preguntas Frecuentes</h2>
         <div class="space-y-4">
           <div class="bg-white shadow-md rounded-lg">
@@ -352,5 +365,7 @@ const toggle = (index) => {
 <style scoped>
 .hero{
   background-image: url('/public/hero_section4.jpg');
+  background-size: cover;
+
 
 }</style>
