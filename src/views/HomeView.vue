@@ -96,19 +96,45 @@
     </section>
 <!--    Seccion de newsletter-->
     <section data-aos="fade-up" class="bg-gray-100 px-5 py-16">
-      <div class="w-full items-center justify-centerflex flex-col md:flex-row  flex justify-between">
+      <div class="w-full items-center justify-center flex flex-col md:flex-row ">
+        <!-- Sección de texto -->
         <div class="md:w-1/2">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">Suscríbete a nuestro boletín</h2>
-          <p class="mb-8 text-lg text-gray-600">Recibe las últimas noticias y actualizaciones sobre JesTy directamente en tu bandeja de entrada.</p>
-          <form class="flex items-center">
-            <input type="email" placeholder="Tu correo electrónico" class="bg-white border border-gray-300 p-2 rounded-l-lg focus:outline-none">
-            <button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded-r-lg">Suscribirme</button>
+          <p class="mb-8 text-lg text-gray-600">
+            Recibe las últimas noticias y actualizaciones sobre JesTy directamente en tu bandeja de entrada.
+          </p>
+          <!-- Formulario -->
+          <form id="newsletter-form" @submit="handleNewsletterSubmit" class="flex items-center">
+            <input
+                type="email"
+                name="user_email"
+                placeholder="Tu correo electrónico"
+                class="bg-white border border-gray-300 p-2 rounded-l-lg focus:outline-none"
+                required
+            />
+            <button
+                type="submit"
+                class="bg-blue-600 text-white font-semibold py-2 px-4 rounded-r-lg"
+            >
+              Suscribirme
+            </button>
           </form>
+          <!-- Mensajes de confirmación o error -->
+          <p v-if="isSubmitted" class="text-green-600 font-medium mt-4">
+            ¡Gracias por suscribirte! 🎉
+          </p>
+          <p v-if="hasError" class="text-red-600 font-medium mt-4">
+            Hubo un error al procesar tu suscripción. Intenta nuevamente.
+          </p>
         </div>
 
+        <!-- Imagen -->
         <div class="md:w-1/2 justify-center flex mt-8 md:mt-0">
-          <img src="/public/th.jpeg"  alt="Descripción de la imagen"
-               class=" h-52 rounded-lg shadow-lg"/>
+          <img
+              src="/public/th.jpeg"
+              alt="Descripción de la imagen"
+              class="h-52 rounded-lg shadow-lg"
+          />
         </div>
       </div>
     </section>
@@ -351,6 +377,32 @@
 
 <script setup>
 import {ref} from "vue";
+import emailjs from 'emailjs-com';
+
+// Variables reactivas para manejar el estado del formulario
+const isSubmitted = ref(false);
+const hasError = ref(false);
+
+// Función para manejar el envío del formulario
+const handleNewsletterSubmit = async (event) => {
+  event.preventDefault(); // Evitar recarga de la página
+
+  try {
+    await emailjs.sendForm(
+        'service_uaggcy8', // ID del servicio de EmailJS
+        'template_v183xvd', // ID de la plantilla para boletín
+        event.target, // Referencia al formulario HTML
+        'PrtHsOGCYBrChfJU3' // Clave pública de EmailJS
+    );
+    isSubmitted.value = true;
+    hasError.value = false;
+    event.target.reset(); // Limpia los campos del formulario
+  } catch (error) {
+    console.error('Error al enviar la suscripción:', error);
+    isSubmitted.value = false;
+    hasError.value = true;
+  }
+};
 
 const openIndex = ref(-1);
 const toggle = (index) => {
