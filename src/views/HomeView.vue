@@ -19,10 +19,10 @@
           <h1 class="mt-10 text-3xl md:text-5xl  lg:text-7xl  text-center font-bold mb-6">Gestiona todo tu negocio con JesTy</h1>
           <p class="md:text-xl text-lg lg:text-3xl text-center mb-8">Automatiza, organiza y haz crecer tu empresa con nuestra solución completa.</p>
           <div class="p-10 items-center justify-center md:flex-row lg:flex-row flex flex-col  text-center md:space-x-4 lg:space-x-4 md:space-y-0 lg:space-y-0 space-y-6">
-            <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
-            </button>
-            <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
-            </button>
+            <a href="/contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Solicita una Demo
+            </a>
+            <a href="/register" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Empieza Ahora
+            </a>
           </div>
         </div>
 
@@ -91,7 +91,7 @@
     <section data-aos="zoom-in" class="bg-gray-800 text-white py-24">
       <div class="items-center justify-center w-full flex-col flex text-center">
         <h2 class="text-4xl font-bold mb-6">Únete a miles de empresas que ya confían en JesTy</h2>
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Pide tu demo</button>
+        <a href="/contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">Pide tu demo</a>
       </div>
     </section>
 <!--    Seccion de newsletter-->
@@ -369,7 +369,7 @@
     <section data-aos="zoom-in" class="bg-blue-700 text-white py-32">
       <div class="  text-center">
         <h2 class="text-4xl font-bold mb-6">Empieza a optimizar tu empresa con JesTy</h2>
-        <button class="bg-white text-blue-700 font-semibold py-3 px-6 rounded">Empieza Ahora</button>
+        <a href="/register" class="bg-white text-blue-700 font-semibold py-3 px-6 rounded">Empieza Ahora</a>
       </div>
     </section>
   </div>

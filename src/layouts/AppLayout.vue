@@ -228,9 +228,9 @@
 
         <!-- Sección derecha: Menú de usuario -->
         <div class="md:visible sm:visible lg:visible hidden lg:flex md:flex space-x-4 items-center">
-          <a href="#" class="text-sm px-3 py-2 rounded-md text-gray-200 hover:bg-blue-600 transition-all duration-200">Iniciar
+          <a href="/login" class="text-sm px-3 py-2 rounded-md text-gray-200 hover:bg-blue-600 transition-all duration-200">Iniciar
             Sesión</a>
-          <a href="#"
+          <a href="/register"
              class="text-sm px-3 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-500 transition-all duration-200">Registrarse</a>
         </div>
           <!-- Botón de menú para dispositivos pequeños -->

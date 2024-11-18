@@ -8,6 +8,8 @@ import ClientsView from "@/views/funcionalidades/ClientsView.vue";
 import LegalNotice from "@/views/legalitats/LegalNotice.vue";
 import CookiesPolice from "@/views/legalitats/CookiesPolice.vue";
 import PrivacityPolice from "@/views/legalitats/PrivacityPolice.vue";
+import Register from "@/views/auth/Register.vue";
+import Login from "@/views/auth/Login.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -76,7 +78,9 @@ const router = createRouter({
     { path: '/aviso-legal', component: LegalNotice },
     { path: '/politica-de-cookies', component: CookiesPolice },
     { path: '/politica-de-privacidad', component: PrivacityPolice },
-
+    {path:'/blog', component: BlogView},
+    {path: '/register', component: Register},
+    {path: '/login', component: Login},
 
   ]
 })
