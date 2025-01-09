@@ -82,6 +82,12 @@ const router = createRouter({
     {path: '/register', component: Register},
     {path: '/login', component: Login},
 
+
+      //Tools
+
+        {path:'/tools/findLeads', component: () => import('@/views/tools/FindLeads.vue')},
+
+
   ]
 })
 
