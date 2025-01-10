@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-4">
+  <div class="container min-h-screen mx-auto p-4">
     <h1 class="text-2xl font-bold mb-4">Buscar Empresas</h1>
     <form @submit.prevent="onSearch" class="space-y-4 bg-white p-6 shadow-md rounded-md">
       <div>
@@ -96,7 +96,6 @@ export default {
       selectedSectors: [],
       radius: 5000,
       results: [],
-      apiKey: 'AIzaSyDc3x7lL9GCHiXbprfrcyEQ7Kd2bkgCu6E',
     };
   },
   methods: {
